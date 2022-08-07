@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> {{ title }} </title>
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ '/styles/base.css' | url }}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ '/styles/root.css' | url }}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ '/styles/primary-cta.css' | url }}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ '/styles/primary-nav.css' | url }}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ '/styles/primary-footer.css' | url }}"
+    />
+
+    <!-- JS Scripts -->
+
+    <!-- Other Imports -->
+  </head>
+  <body>
+    {% include "partials/primary-nav.html" %}
+    <main tabindex="-1" id="main-content"> {{ content | safe }} </main>
+    {% include "partials/primary-cta.html" %}
+    <!--  -->
+    {% include "partials/primary-footer.html" %}
+  </body>
+</html>

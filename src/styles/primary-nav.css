@@ -1,0 +1,18 @@
+/* Navigation */
+.primary-navigation {
+  background-color: blue;
+}
+
+.nav-list {
+  outline: 2px solid red;
+}
+
+li {
+  display: inline;
+}
+
+:root {
+  margin-top: 10em;
+  width: 5em;
+  height: fit-content;
+}

@@ -1,0 +1,8 @@
+<nav class="primary-navigation" aria-label="primary">
+  <a href="#" class="nav-logo">NAV LOGO</a>
+  <ul class="nav-list" role="list">
+    {% for item in primaryNav.items %}
+    <li><a href="{{ item.url }}" class="nav-link"> {{ item.text }} </a></li>
+    {% endfor %}
+  </ul>
+</nav>

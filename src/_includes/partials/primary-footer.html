@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="styles/primary-footer.css" />
+
+<footer class="primary-footer" aria-label="primary">
+  <div class="even-columns">
+    <a href="#" class="footer-logo">FOOTER LOGO</a>
+    <ul class="footer-list">
+      {% for item in primaryFooter.items %}
+      <li
+        ><a href="{{ item.url }}" class="footer-link"> {{ item.text }} </a></li
+      >
+      {% endfor %}
+    </ul>
+  </div>
+</footer>
