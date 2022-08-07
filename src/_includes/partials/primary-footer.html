@@ -9,4 +9,14 @@
       {% endfor %}
     </ul>
   </div>
+  <div class="even-columns">
+    <ul role="list" class="footer-social">
+      {% for item in primaryFooter.social %}
+      <li
+        ><a href="{{ item.url }}" class="social-link"> {{ item.text }} </a></li
+      >
+      {% endfor %}
+    </ul>
+    <a href="#" class="footer-copyright">Copyright 2022</a>
+  </div>
 </footer>

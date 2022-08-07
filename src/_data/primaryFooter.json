@@ -20,5 +20,23 @@
       "text": "Contact",
       "url": "/contact/"
     }
+  ],
+  "social": [
+    {
+      "text": "YouTube",
+      "url": "/"
+    },
+    {
+      "text": "GitHub",
+      "url": "/github/"
+    },
+    {
+      "text": "LinkedIn",
+      "url": "/linkedin/"
+    },
+    {
+      "text": "Instagram",
+      "url": "/instagram/"
+    }
   ]
 }
