@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx eleventy --serve"
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,8 @@
   },
   "dependencies": {
     "clean-css": "^5.3.1",
-    "node": "^18.7.0"
+    "debug": "^4.3.4",
+    "node": "^18.7.0",
+    "nunjucks": "^3.2.3"
   }
 }

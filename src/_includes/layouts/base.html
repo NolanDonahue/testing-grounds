@@ -7,14 +7,12 @@
     <title> {{ title }} </title>
 
     <!-- CSS -->
-    <!-- TODO add CSS to base once understood -->
     <!-- JS Scripts -->
-
     <!-- Other Imports -->
   </head>
   <body>
     {% include "partials/primary-nav.html" %}
-    <main tabindex="-1" id="main-content"> {{ content | safe }} </main>
+    <main tabindex="-1" id="main-content"> {{ content }} </main>
     {% include "partials/primary-cta.html" %} {% include
     "partials/primary-footer.html" %}
   </body>
