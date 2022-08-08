@@ -1,0 +1,16 @@
+.primary-cta {
+  justify-content: center;
+}
+.cta-header,
+.cta-text {
+  text-align: center;
+}
+
+.cta-header {
+}
+.cta-text {
+  margin-top: 2em;
+  width: clamp(10em, 50%, 75%);
+  margin-left: auto;
+  margin-right: auto;
+}

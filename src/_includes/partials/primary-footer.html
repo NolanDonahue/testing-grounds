@@ -1,22 +1,27 @@
 <footer class="primary-footer" aria-label="primary">
-  <div class="even-columns">
-    <a href="#" class="footer-logo">FOOTER LOGO</a>
-    <ul class="footer-list">
+  <ul class="footer-list footer-primary">
+    <li>
+      <a href="#" class="footer-logo">FOOTER LOGO</a>
+    </li>
+    <div class="footer-items">
       {% for item in primaryFooter.items %}
       <li
         ><a href="{{ item.url }}" class="footer-link"> {{ item.text }} </a></li
       >
       {% endfor %}
-    </ul>
-  </div>
-  <div class="even-columns">
-    <ul role="list" class="footer-social">
+    </div>
+  </ul>
+  <hr />
+  <ul class="footer-list footer-secondary">
+    <div class="footer-social">
       {% for item in primaryFooter.social %}
-      <li
-        ><a href="{{ item.url }}" class="social-link"> {{ item.text }} </a></li
-      >
+      <li>
+        <a href="{{ item.url }}" class="social-link"> {{ item.text }} </a>
+      </li>
       {% endfor %}
-    </ul>
-    <a href="#" class="footer-copyright">Copyright 2022</a>
-  </div>
+    </div>
+    <li>
+      <a href="#" class="footer-logo">Copyright 2020</a>
+    </li>
+  </ul>
 </footer>
